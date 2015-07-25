@@ -11,11 +11,11 @@ The variables in the original data set are around 17 parameters estimated from 3
 The first step in run_analysis.R is to put together a raw data set, which is later summarized. The data for that purpose is scattered throughout several files in the original data. They are put together in one single table the following way:
 
 
-Column heads	"SubjectID"		"Activity"		features.txt
+Column heads    "SubjectID"             "Activity"              features.txt
 
-First rows	test/subject_test.txt	test/y_test.txt		test/X_test.txt
+First rows      test/subject_test.txt   test/y_test.txt         test/X_test.txt
 
-Last rows	train/subject_train.txt	train/y_train.txt	test/X_test.txt
+Last rows       train/subject_train.txt train/y_train.txt       test/X_test.txt
 
 
 The number labels in the "Activity" column were then replaced with the corresponding text labels from the activity_labels.txt file.
