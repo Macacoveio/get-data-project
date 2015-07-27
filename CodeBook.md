@@ -4,7 +4,25 @@
 
 The original data set used to obtain the tidy data can be found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The variables in the original data set are around 17 parameters estimated from 33 signals, resulting in more than 500 variables described in the features_info.txt file, that can be found in the folder with the original data set.
+The variables in the original data set are around 17 parameters estimated from 33 signals, resulting in more than 500 variables described in the features_info.txt file, that can be found in the folder with the original data set. The signal variables are (note: XYZ represents 3 variables, one for each axis):
+
+*tBodyAcc-XYZ
+*tGravityAcc-XYZ
+*tBodyAccJerk-XYZ
+*tBodyGyro-XYZ
+*tBodyGyroJerk-XYZ
+*tBodyAccMag
+*tGravityAccMag
+*tBodyAccJerkMag
+*tBodyGyroMag
+*tBodyGyroJerkMag
+*fBodyAcc-XYZ
+*fBodyAccJerk-XYZ
+*fBodyGyro-XYZ
+*fBodyAccMag
+*fBodyAccJerkMag
+*fBodyGyroMag
+*fBodyGyroJerkMag
 
 ###Raw data set
 
